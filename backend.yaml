@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: raisalacr.azurecr.io/restaurant-backend:BUILD_NUMBER_PLACEHOLDER
+        image: raisalacr.azurecr.io/restaurant-backend:64
         ports:
         - containerPort: 8000
 ---
